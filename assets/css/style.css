@@ -83,3 +83,27 @@ h3 {
   line-height: 1.08;
   letter-spacing: -0.03em;
 }
+p {
+  color: var(--color-muted);
+}
+
+.btn-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-pill {
+  border-radius: 999px;
+  padding: 13px 22px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.btn-warning {
+  background: var(--color-yellow);
+  border-color: var(--color-yellow);
+  color: var(--color-navy);
+}
