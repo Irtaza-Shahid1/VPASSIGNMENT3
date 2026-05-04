@@ -107,3 +107,26 @@ p {
   border-color: var(--color-yellow);
   color: var(--color-navy);
 }
+.btn-outline-dark {
+  border: 2px solid var(--color-navy);
+  color: var(--color-navy);
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  background: var(--color-navy);
+  color: var(--color-white);
+}
+
+.section-heading {
+  max-width: 620px;
+  margin-bottom: 42px;
+}
+
+.section-heading h2 {
+  font-size: 36px;
+}
+
+.left-heading {
+  max-width: 540px;
+}
