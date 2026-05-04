@@ -171,3 +171,19 @@ p {
 .nav-link:focus {
   color: var(--color-blue);
 }
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-left: 22px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: none;
+}
