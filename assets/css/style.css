@@ -44,3 +44,42 @@ img {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: var(--container-wide);
+}
+
+.section-light {
+  background: linear-gradient(135deg, #eef7ff 0%, #f8fbff 55%, #ffffff 100%);
+}
+
+.section-white {
+  background: var(--color-white);
+}
+
+.section-light-blue {
+  background: var(--color-light-blue);
+}
+
+.yellow-section {
+  background: var(--color-yellow);
+}
+
+section {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-navy);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
