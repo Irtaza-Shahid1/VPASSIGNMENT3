@@ -150,3 +150,24 @@ p {
 .nav-wrap {
   position: relative;
 }
+.brand-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar-brand span {
+  color: var(--color-navy);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.nav-link {
+  color: var(--color-navy);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-blue);
+}
