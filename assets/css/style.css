@@ -1,0 +1,19 @@
+/* ================Design Variables=============== */
+:root {
+  --color-navy: #02073f;
+  --color-blue: #4338e8;
+  --color-blue-dark: #2b25c7;
+  --color-yellow: #ffc247;
+  --color-yellow-dark: #f1a90e;
+  --color-light: #f2f8ff;
+  --color-light-blue: #edf6ff;
+  --color-white: #ffffff;
+  --color-text: #0a103b;
+  --color-muted: #626b7f;
+  --shadow-soft: 0 18px 35px rgba(2, 7, 63, 0.12);
+  --shadow-card: 0 12px 24px rgba(2, 7, 63, 0.14);
+  --radius-lg: 26px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --container-wide: 1140px;
+}
