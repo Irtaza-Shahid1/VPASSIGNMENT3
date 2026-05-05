@@ -322,23 +322,22 @@ p {
 .featured-row {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 28px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 16px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .featured-row span {
-  color: var(--color-navy);
-  font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
+  color: #000000;
 }
 
-.featured-row strong {
-  color: var(--color-navy);
-  font-size: 17px;
-  font-weight: 900;
-  letter-spacing: -0.04em;
+.featured-row img {
+  height: 55px;
+  object-fit: contain;
+  filter: grayscale(100%); /* optional Figma-like style */
+  opacity: 15;
 }
 /* =========================
    About Section
