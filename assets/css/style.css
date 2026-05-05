@@ -323,31 +323,30 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 50px;
   flex-wrap: wrap;
-  gap: 70px;
   padding: 20px 0;
   margin-top: 20px;
-  text-align: center;
 }
 
 .featured-row span {
   font-weight: 600;
   color: #02073f;
-  margin-right: 80px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
+/* IMPORTANT FIX */
 .featured-row img {
-  max-height: 200px;
-  width: 100px;
+  height: 60px;        /* control size properly */
+  width: auto;
   object-fit: contain;
-  opacity: 1;
+  opacity: 0.9;
   transition: 0.3s ease;
 }
 
 .featured-row img:hover {
+  transform: scale(1.1);
   opacity: 1;
-  transform: scale(1.08);
 }
 /* =========================
    About Section
@@ -552,26 +551,33 @@ p {
 
 .featured-row {
   display: flex;
-  align-items: left;
-  justify-content: left;
-  gap: 40px;          
-  flex-wrap: wrap;     
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
   padding: 20px 0;
+  margin-top: 20px;
 }
 
+.featured-row span {
+  font-weight: 600;
+  color: #02073f;
+  font-size: 18px;
+}
+
+/* IMPORTANT FIX */
 .featured-row img {
-  max-height: 40px;    
+  height: 60px;        /* control size properly */
   width: auto;
   object-fit: contain;
-  opacity: 1;        
+  opacity: 0.9;
   transition: 0.3s ease;
 }
 
 .featured-row img:hover {
+  transform: scale(1.1);
   opacity: 1;
-  transform: scale(1.05);
 }
-
 .small-text,
 .legal-text {
   color: rgba(255, 255, 255, 0.68);
