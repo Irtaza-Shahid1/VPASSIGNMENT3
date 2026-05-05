@@ -654,4 +654,25 @@ p {
   .nav-toggle:checked ~ .nav-menu {
     display: flex;
   }
+   .nav-btn {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 58px 0 68px;
+  }
+
+  .hero-section::before {
+    right: -80px;
+    width: 260px;
+  }
+
+  .hero-copy h1 {
+    font-size: 46px;
+  }
+
+  .hero-art {
+    margin: 0 auto;
+  }
   
