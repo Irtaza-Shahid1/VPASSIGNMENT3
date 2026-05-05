@@ -230,4 +230,20 @@ p {
   position: relative;
   z-index: 2;
 }
+.hero-copy h1 {
+  font-size: 58px;
+  margin-bottom: 24px;
+}
 
+.hero-copy p {
+  max-width: 465px;
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+
+.hero-art {
+  position: relative;
+  z-index: 2;
+  max-width: 570px;
+  margin-left: auto;
+}
