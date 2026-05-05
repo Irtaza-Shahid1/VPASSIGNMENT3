@@ -510,3 +510,43 @@ p {
   font-size: 13px;
   margin-bottom: 0;
 }
+/* =========================
+   Footer
+   ========================= */
+.site-footer {
+  padding: 76px 0 42px;
+  background: var(--color-navy);
+  color: var(--color-white);
+}
+
+.site-footer h2 {
+  color: var(--color-white);
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background: var(--color-white);
+  color: var(--color-navy);
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.small-text,
+.legal-text {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 12px;
+  max-width: 330px;
+}
