@@ -675,4 +675,19 @@ p {
   .hero-art {
     margin: 0 auto;
   }
-  
+  .about-section,
+  .features-section,
+  .support-section,
+  .insights-section {
+    padding: 72px 0;
+  }
+
+  .photo-frame {
+    margin: 0 auto;
+  }
+
+  .newsletter-card,
+  .footer-box {
+    margin-left: 0;
+  }
+}
