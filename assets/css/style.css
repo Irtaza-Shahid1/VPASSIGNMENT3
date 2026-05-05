@@ -588,3 +588,30 @@ p {
   font-size: 13px;
   margin-bottom: 22px;
 }
+.newsletter-form {
+  display: flex;
+  background: var(--color-white);
+  border-radius: 999px;
+  padding: 6px;
+  gap: 6px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  padding: 12px 15px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.newsletter-form button {
+  border: 0;
+  border-radius: 999px;
+  background: var(--color-blue);
+  color: var(--color-white);
+  padding: 0 22px;
+  font-size: 13px;
+  font-weight: 800;
+}
