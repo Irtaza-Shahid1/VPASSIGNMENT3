@@ -398,3 +398,36 @@ p {
   line-height: 1.55;
   margin-bottom: 0;
 }
+/* =========================
+   Support Section
+   ========================= */
+.support-section {
+  padding: 88px 0;
+}
+
+.story-card,
+.help-card {
+  min-height: 210px;
+  border-radius: var(--radius-lg);
+  padding: 34px;
+}
+
+.story-card {
+  background: linear-gradient(135deg, var(--color-yellow) 0%, #ffd96f 100%);
+}
+
+.help-card {
+  background: var(--color-white);
+}
+
+.story-card h2,
+.help-card h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.story-card p,
+.help-card p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
