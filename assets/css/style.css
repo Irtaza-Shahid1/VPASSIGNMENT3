@@ -247,3 +247,33 @@ p {
   max-width: 570px;
   margin-left: auto;
 }
+/* =========================
+   Reviews Section
+   ========================= */
+.reviews-section {
+  padding: 72px 0 58px;
+  overflow: hidden;
+}
+
+.reviews-section h2 {
+  font-size: 34px;
+}
+
+.reviews-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(285px, 345px);
+  gap: 28px;
+  overflow-x: auto;
+  padding: 8px max(24px, calc((100vw - var(--container-wide)) / 2)) 30px;
+  scroll-snap-type: x mandatory;
+}
+
+.reviews-track::-webkit-scrollbar {
+  height: 8px;
+}
+
+.reviews-track::-webkit-scrollbar-thumb {
+  background: rgba(2, 7, 63, 0.22);
+  border-radius: 99px;
+}
