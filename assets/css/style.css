@@ -718,4 +718,48 @@ p {
     width: 100%;
     text-align: center;
   }
-  
+   .reviews-track {
+    grid-auto-columns: minmax(250px, 82vw);
+  }
+
+  .feature-panel {
+    padding: 34px 22px;
+  }
+
+  .feature-item {
+    min-height: auto;
+  }
+
+  .featured-row {
+    justify-content: flex-start;
+  }
+
+  .story-card,
+  .help-card {
+    padding: 28px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    border-radius: var(--radius-sm);
+  }
+
+  .newsletter-form button {
+    min-height: 44px;
+  }
+}
+@media (max-width: 420px) {
+  .hero-copy h1 {
+    font-size: 34px;
+  }
+
+  .hero-copy p {
+    font-size: 15px;
+  }
+
+  .photo-frame {
+    border-width: 8px;
+    border-left-width: 18px;
+    border-bottom-width: 18px;
+  }
+}
