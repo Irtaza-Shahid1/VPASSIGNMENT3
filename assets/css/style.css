@@ -615,3 +615,16 @@ p {
   font-size: 13px;
   font-weight: 800;
 }
+.footer-box {
+  width: 190px;
+  height: 70px;
+  border-radius: 8px;
+  background: var(--color-white);
+  margin: 54px 0 0 auto;
+}
+
+.legal-text {
+  max-width: 720px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
