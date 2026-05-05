@@ -277,3 +277,29 @@ p {
   background: rgba(2, 7, 63, 0.22);
   border-radius: 99px;
 }
+.review-card {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  min-height: 210px;
+  padding: 28px;
+  scroll-snap-align: start;
+}
+
+.stars {
+  color: var(--color-yellow-dark);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.review-card p {
+  color: var(--color-text);
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.review-card h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
