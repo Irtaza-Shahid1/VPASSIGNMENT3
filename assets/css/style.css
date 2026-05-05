@@ -550,3 +550,22 @@ p {
   font-size: 12px;
   max-width: 330px;
 }
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li + li {
+  margin-top: 12px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: var(--color-yellow);
+}
