@@ -303,3 +303,24 @@ p {
   font-size: 14px;
   margin-bottom: 0;
 }
+.featured-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  padding-top: 16px;
+}
+
+.featured-row span {
+  color: var(--color-navy);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.featured-row strong {
+  color: var(--color-navy);
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
