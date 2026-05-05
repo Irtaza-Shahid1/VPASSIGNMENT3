@@ -324,3 +324,37 @@ p {
   font-weight: 900;
   letter-spacing: -0.04em;
 }
+/* =========================
+   About Section
+   ========================= */
+.about-section {
+  padding: 95px 0;
+}
+
+.about-copy {
+  max-width: 520px;
+}
+
+.about-copy h2 {
+  font-size: 42px;
+  margin-bottom: 22px;
+}
+
+.about-copy p {
+  max-width: 440px;
+  margin-bottom: 28px;
+}
+
+.photo-frame {
+  width: min(100%, 440px);
+  border: 12px solid var(--color-yellow);
+  border-left-width: 28px;
+  border-bottom-width: 28px;
+  box-shadow: var(--shadow-soft);
+  border-radius: 3px;
+  background: var(--color-yellow);
+}
+
+.photo-frame img {
+  width: 100%;
+}
