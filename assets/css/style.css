@@ -263,13 +263,6 @@ p {
   margin-bottom: 32px;
 }
 
-.hero-art {
-  position: relative;
-  z-index: 2;
-  max-width: 570px;
-  margin-left: auto;
-}
-
 /* =========================
    Reviews Section
    ========================= */
