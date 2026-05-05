@@ -358,3 +358,43 @@ p {
 .photo-frame img {
   width: 100%;
 }
+/* =========================
+   Features Section
+   ========================= */
+.features-section {
+  padding: 90px 0 100px;
+}
+
+.features-section .section-heading h2 {
+  font-size: 34px;
+}
+
+.feature-panel {
+  max-width: 720px;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 48px 46px 42px;
+  box-shadow: var(--shadow-soft);
+}
+
+.feature-item {
+  text-align: center;
+  min-height: 188px;
+}
+
+.feature-item img {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 18px;
+}
+
+.feature-item h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 13px;
+  line-height: 1.55;
+  margin-bottom: 0;
+}
