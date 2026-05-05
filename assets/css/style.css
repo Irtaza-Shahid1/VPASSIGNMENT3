@@ -628,3 +628,30 @@ p {
   margin-top: 80px;
   margin-bottom: 0;
 }
+/* =========================
+   Responsive Design
+   ========================= */
+@media (max-width: 991.98px) {
+  .navbar {
+    min-height: 68px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 62px;
+    left: 12px;
+    right: 12px;
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+    padding: 22px;
+    display: none;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .nav-toggle:checked ~ .nav-menu {
+    display: flex;
+  }
+  
