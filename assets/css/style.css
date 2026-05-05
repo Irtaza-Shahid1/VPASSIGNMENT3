@@ -569,3 +569,22 @@ p {
 .footer-links a:focus {
   color: var(--color-yellow);
 }
+.newsletter-card {
+  background: var(--color-yellow);
+  border-radius: var(--radius-lg);
+  padding: 34px;
+  max-width: 430px;
+  margin-left: auto;
+}
+
+.newsletter-card h2 {
+  color: var(--color-navy);
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.newsletter-card p {
+  color: var(--color-navy);
+  font-size: 13px;
+  margin-bottom: 22px;
+}
